@@ -13,4 +13,5 @@ jobs:
       contents: write
     with:
       keymap_patterns: "config/*.keymap"
+      config_path: "img/config.yml"
       output_folder: "img"
