@@ -172,3 +172,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [41, 40]
+  k: {t: '$$mdi:backspace$$', type: backspace}
+- p: [36, 37]
+  k: $$mdi:backspace-reverse-outline$$
