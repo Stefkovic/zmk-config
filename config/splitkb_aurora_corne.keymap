@@ -19,6 +19,20 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <41 40>;
+        };
+
+        delete {
+            bindings = <&kp DEL>;
+            key-positions = <36 37>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
