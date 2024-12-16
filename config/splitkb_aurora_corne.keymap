@@ -7,6 +7,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/outputs.h>
 
 / {
     macros {
@@ -23,10 +24,10 @@
 
         default_layer {
             bindings = <
-&kp ESCAPE  &kp Q  &kp W  &kp F   &kp P  &kp B        &kp J      &kp L  &kp U          &kp Y    &kp SEMICOLON  &kp SLASH
-&kp TAB     &kp A  &kp R  &kp S   &kp T  &kp G        &kp M      &kp N  &kp E          &kp I    &kp O          &kp SQT
-&kp LSHFT   &kp Z  &kp X  &kp C   &kp D  &kp V        &kp K      &kp H  &kp COMMA      &kp DOT  &kp RIGHT_ALT  &kp RCTRL
-                          &hyper  &mo 1  &kp ENTER    &kp SPACE  &mo 2  &kp BACKSPACE
+&kp ESCAPE  &kp Q  &kp W  &kp F  &kp P  &kp B        &kp J      &kp L  &kp U          &kp Y    &kp SEMICOLON  &kp SLASH
+&kp TAB     &kp A  &kp R  &kp S  &kp T  &kp G        &kp M      &kp N  &kp E          &kp I    &kp O          &kp SQT
+&kp LSHFT   &kp Z  &kp X  &kp C  &kp D  &kp V        &kp K      &kp H  &kp COMMA      &kp DOT  &kp RIGHT_ALT  &kp RCTRL
+                          &mo 3  &mo 1  &kp ENTER    &kp SPACE  &mo 2  &kp BACKSPACE
             >;
         };
 
@@ -45,6 +46,15 @@
 &kp LCTRL  &trans    &trans  &trans    &trans    &trans       &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
 &kp LSHFT  &trans    &trans  &trans    &trans    &trans       &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
                              &kp LGUI  &trans    &kp ENTER    &kp SPACE  &trans     &kp RALT
+            >;
+        };
+
+        opts {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans        &trans        &trans        &trans        &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &out OUT_TOG  &trans        &trans        &trans        &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &bt BT_CLR    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans  &trans
+                        &trans  &trans  &trans    &trans        &trans        &trans
             >;
         };
     };
