@@ -129,7 +129,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '0'
-  svk:
+  svk_layer:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -143,7 +143,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '&sk_aa_lower', s: '&sk_aa_upper'}
+  - áÁ
   - {t: '&sk_ra_lower', s: '&sk_ra_upper'}
   - {t: '&sk_sc_lower', s: '&sk_sc_upper'}
   - {t: '&sk_tc_lower', s: '&sk_tc_upper'}
