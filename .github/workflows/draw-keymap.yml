@@ -15,3 +15,4 @@ jobs:
       keymap_patterns: "config/*.keymap"
       config_path: "img/config.yml"
       output_folder: "img"
+      west_config_path: "config"
