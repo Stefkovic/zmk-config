@@ -25,5 +25,6 @@ parse_config:
 draw_config:
   dark_mode: true
   draw_key_sides: true
+  separate_combo_diagrams: true
   footer_text: ""
 
