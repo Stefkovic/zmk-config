@@ -56,10 +56,6 @@ ZMK_MOD_MORPH(bs_del_num,
 
 ZMK_CONDITIONAL_LAYER(svk, NAV NUM, SVK)
 
-
-
-
-ďáéŕľčáŕšľgľľľľľľľľľľľľľľľľgľľľľľľľľľľľúýňéíó11č111žčďv11k112233221;;;
 /* Keymap */
 
 ZMK_LAYER(default_layer,
