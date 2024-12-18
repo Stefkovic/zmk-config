@@ -2,6 +2,9 @@ parse_config:
   zmk_preamble: "#include <zmk-helpers/key-labels/42.h>"
   zmk_additional_includes:
     - "zmk-helpers/include"
+  raw_binding_map:
+    '&sk_aa': áÁ
+    
 
 
 draw_config:
