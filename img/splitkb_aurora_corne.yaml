@@ -173,12 +173,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [26, 28]
-  k: Ctl+X
-  l: [default_layer, nav_layer, num_layer]
-- p: [26, 27]
-  k: Ctl+INS
-  l: [default_layer, nav_layer, num_layer]
 - p: [27, 28]
-  k: Sft+INS
+  k: Gui+C
+  l: [default_layer, nav_layer, num_layer]
+- p: [28, 29]
+  k: Gui+V
   l: [default_layer, nav_layer, num_layer]
