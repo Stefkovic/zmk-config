@@ -3,7 +3,22 @@ parse_config:
   zmk_additional_includes:
     - "zmk-helpers/include"
   raw_binding_map:
-    '&sk_aa': áÁ
+    '&sk_ad': ä/Ä
+    '&sk_aa': á/Á
+    '&sk_ea': é/É
+    '&sk_ia': í/Í
+    '&sk_ua': ú/Ú
+    '&sk_oa': ó/Ó
+    '&sk_ox': ô/Ô
+    '&sk_ya': ý/Ý
+    '&sk_dc': ď/Ď
+    '&sk_tc': ť/Ť
+    '&sk_nc': ň/Ň
+    '&sk_lc': ľ/Ľ
+    '&sk_cc': č/Č
+    '&sk_zc': ž/Ž
+    '&sk_sc': š/Š
+    '&sk_ra': ŕ/Ŕ
     
 
 
