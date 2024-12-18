@@ -5,4 +5,7 @@ parse_config:
 
 
 draw_config:
-  dark_mode: auto
+  dark_mode: true
+  draw_key_sides: true
+  footer_text: ""
+
