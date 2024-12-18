@@ -129,3 +129,46 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '0'
+  svk:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '&sk_lc_lower', s: '&sk_lc_upper'}
+  - {t: '&sk_ua_lower', s: '&sk_ua_upper'}
+  - {t: '&sk_ya_lower', s: '&sk_ya_upper'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '&sk_aa_lower', s: '&sk_aa_upper'}
+  - {t: '&sk_ra_lower', s: '&sk_ra_upper'}
+  - {t: '&sk_sc_lower', s: '&sk_sc_upper'}
+  - {t: '&sk_lc_lower', s: '&sk_lc_upper'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '&sk_nc_lower', s: '&sk_nc_upper'}
+  - {t: '&sk_ea_lower', s: '&sk_ea_upper'}
+  - {t: '&sk_ia_lower', s: '&sk_ia_upper'}
+  - {t: '&sk_oa_lower', s: '&sk_oa_upper'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '&sk_zc_lower', s: '&sk_zc_upper'}
+  - {t: ▽, type: trans}
+  - {t: '&sk_cc_lower', s: '&sk_cc_upper'}
+  - {t: '&sk_dc_lower', s: '&sk_dc_upper'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
