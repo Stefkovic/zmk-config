@@ -16,3 +16,4 @@ jobs:
       config_path: "img/config.yml"
       output_folder: "img"
       west_config_path: "config"
+      install_branch: "main"
