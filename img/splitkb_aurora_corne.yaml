@@ -14,16 +14,16 @@ layers:
   - ''''
   - {t: ▽, type: trans}
   - TAB
-  - {t: A, h: LGUI}
-  - {t: R, h: LALT}
-  - {t: S, h: LCTRL}
-  - {t: T, h: LSHFT}
-  - G
-  - M
-  - {t: N, h: RSHFT}
-  - {t: E, h: LCTRL}
-  - {t: I, h: LALT}
-  - {t: O, h: LGUI}
+  - {t: A, h: LSHFT}
+  - {t: R, h: LCTRL}
+  - {t: S, h: LALT}
+  - {t: T, h: LGUI}
+  - {t: G, h: Gui+Sft+Ctl+LALT}
+  - {t: M, h: Gui+Sft+Ctl+LALT}
+  - {t: N, h: LGUI}
+  - {t: E, h: LALT}
+  - {t: I, h: LCTRL}
+  - {t: O, h: RSHFT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Z
@@ -57,11 +57,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: LGUI, h: sticky}
-  - {t: LALT, h: sticky}
-  - {t: LCTRL, h: sticky}
   - {t: LSHFT, h: sticky}
-  - {t: ▽, type: trans}
+  - {t: LCTRL, h: sticky}
+  - {t: LALT, h: sticky}
+  - {t: LGUI, h: sticky}
+  - {t: Gui+Sft+Ctl+LALT, h: sticky}
   - PG DN
   - LEFT
   - DOWN
